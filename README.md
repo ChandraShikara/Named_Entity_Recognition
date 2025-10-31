@@ -43,6 +43,7 @@ The app integrates a **FastAPI backend** with a **React frontend**, forming a hy
 
 ## 📁 Folder Structure
 
+```markdown
 Named_Entity_Recognition
 │
 ├── NER_aPP/ # Backend (FastAPI)
@@ -72,6 +73,7 @@ Named_Entity_Recognition
 ├── .gitignore # Ignored large/model files
 └── README.md # Project documentation
 
+```
 ---
 
 ## ⚙️ Installation & Setup
