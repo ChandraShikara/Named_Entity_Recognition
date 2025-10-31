@@ -1,7 +1,7 @@
 # 🧠 Named Entity Recognition (NER) Application
 
 ## 📌 Overview
-This project is a **Named Entity Recognition (NER)** system built using a fine-tuned Transformer model trained on the **WikiANN multilingual dataset**.  
+This project is a **Named Entity Recognition (NER)** system built using a fine-tuned Transformer model trained on the **WikiANN multilingual dataset** where english language is considered.  
 It identifies entities such as **persons (PER)**, **organizations (ORG)**, and **locations (LOC)** from input text.
 
 The app integrates a **FastAPI backend** with a **React frontend**, forming a hybrid **MERN-style architecture** — combining modern web technologies with a robust deep learning pipeline.
