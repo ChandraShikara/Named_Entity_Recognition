@@ -72,7 +72,6 @@ Named_Entity_Recognition
 ├── .gitignore # Ignored large/model files
 └── README.md # Project documentation
 
-
 ---
 
 ## ⚙️ Installation & Setup
