@@ -11,7 +11,7 @@ The app integrates a **FastAPI backend** with a **React frontend**, forming a hy
 ## 🚀 Key Features
 - 🔍 Extracts named entities (PER, ORG, LOC, etc.)
 - 🧩 Uses a fine-tuned Transformer model (`bert-base-cased` variant trained on WikiANN)
-- 💾 MongoDB integration for storing users and queries
+- 💾 MongoDB integration for storing queries
 - ⚡ FastAPI backend serving predictions
 - 💻 React-based frontend with a styled dashboard and model overview
 - 🧠 Modular architecture — easy to retrain or replace models
