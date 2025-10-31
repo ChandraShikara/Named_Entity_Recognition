@@ -1,0 +1,56 @@
+# ============================
+# 🧠 Python Environment
+# ============================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.csv
+*.sqlite3
+*.db
+
+# ============================
+# 🚀 FastAPI / Backend
+# ============================
+.env
+*.env
+*.jsonl
+*.cache/
+*.ipynb_checkpoints/
+NER_aPP/__pycache__/
+NER_aPP/.env
+NER_aPP/venv/
+NER_aPP/*.log
+
+# Ignore large model files ( > 100 MB )
+NER_aPP/ner_model/*.pt
+NER_aPP/ner_model/*.bin
+NER_aPP/ner_model/*.safetensors
+NER_aPP/ner_model/*.pth
+NER_aPP/ner_model/checkpoint-*/
+
+# Keep only necessary configs
+!NER_aPP/ner_model/config.json
+!NER_aPP/ner_model/tokenizer.json
+!NER_aPP/ner_model/vocab.txt
+!NER_aPP/ner_model/tokenizer_config.json
+!NER_aPP/ner_model/special_tokens_map.json
+
+# ============================
+# ⚛️ React / Frontend
+# ============================
+ner-frontend/node_modules/
+ner-frontend/dist/
+ner-frontend/build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
+# 💻 System Files
+# ============================
+.DS_Store
+Thumbs.db
